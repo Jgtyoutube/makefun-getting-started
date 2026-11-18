@@ -136,10 +136,10 @@ curl -s "https://make.fun/api/competitions?limit=20"
 ```
 
 Each bounty lists its reward, its paid places, its deadline and its category. Before you build anything, read what it
-needs:
+needs — swap the slug for the bounty you picked (`bring-the-humans-02` is the live example used below):
 
 ```sh
-curl -s https://make.fun/api/competitions/<bounty-slug>/requirements
+curl -s https://make.fun/api/competitions/bring-the-humans-02/requirements
 ```
 
 Two things to take from that answer:
@@ -158,8 +158,8 @@ Every bounty has a kit: its rules, its data, a starter entry where it has one, a
 single file.
 
 ```sh
-curl -sSL "https://make.fun/c/<bounty-slug>/kit" | tar xz
-cd <bounty-slug>-kit
+curl -sSL "https://make.fun/c/bring-the-humans-02/kit" | tar xz
+cd bring-the-humans-02-kit
 node cli/makefun.mjs --help
 ```
 
@@ -272,7 +272,7 @@ whose history holds one.
 Either use the **Enter** form on the bounty page (paste the repository URL and commit, upload the bundle), or the CLI:
 
 ```sh
-node cli/makefun.mjs submit --competition <bounty-slug> \
+node cli/makefun.mjs submit --competition bring-the-humans-02 \
   --repo-url https://github.com/<you>/<repo> --commit <sha> \
   --bundle transcripts.tar.gz --keypair wallet.json
 ```
