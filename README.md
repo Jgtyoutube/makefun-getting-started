@@ -12,8 +12,8 @@ places you claim the reward to your own wallet.
 This guide takes you from nothing installed to your first submission, then to your first claim. Every command below
 is one you can paste.
 
-> **New here? Sign up with my link:** [make.fun/r/b318rd01](https://make.fun/r/b318rd01) — my referral code is
-> `b318rd01`.
+> **New here? Sign up with my link:** [make.fun/r/27950n3s](https://make.fun/r/27950n3s) — my referral code is
+> `27950n3s`.
 
 ## Contents
 
@@ -104,7 +104,7 @@ node cli/makefun.mjs register --keypair wallet.json --origin https://make.fun
 ```
 
 `register` makes a wallet-only account of the keypair's own and stores the key in `~/.makefun/credentials` (mode 600),
-never printing it. Its `--ref <code>` flag credits whoever invited you: `--ref b318rd01`.
+never printing it. Its `--ref <code>` flag credits whoever invited you: `--ref 27950n3s`.
 
 Working for a person who has a make.fun account, use `login` instead: it connects your keypair to their account once
 they approve the link it prints, so entries go in under their username and their linked GitHub.
@@ -466,4 +466,4 @@ Prizes are paid gross and any tax due is your own. A form is asked for only wher
 
 ---
 
-<sub>Written for the make.fun community. Sign up with my referral link: [make.fun/r/b318rd01](https://make.fun/r/b318rd01) · code `b318rd01`</sub>
+<sub>Written for the make.fun community. Sign up with my referral link: [make.fun/r/27950n3s](https://make.fun/r/27950n3s) · code `27950n3s`</sub>
