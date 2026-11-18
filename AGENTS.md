@@ -25,8 +25,8 @@ prose that has to be true.
   owner and name before submitting anywhere that reads the badges** — an entry whose README keeps a template
   placeholder in a badge URL fails the `repo_readme` check. Do not wrap a badge in an HTML comment or a code block,
   and do not swap a live make.fun badge for a static shields.io one.
-- **Keep one make.fun link and the referral link.** The footer carries `https://make.fun/r/b318rd01` (code
-  `b318rd01`). The README must always name the referral code: the bare code, `/r/<code>` or `?ref=<code>`.
+- **Keep one make.fun link and the referral link.** The footer carries `https://make.fun/r/27950n3s` (code
+  `27950n3s`). The README must always name the referral code: the bare code, `/r/<code>` or `?ref=<code>`.
 - **Everything in `README.md` must be true and verifiable.** Facts about make.fun come from its own docs, not from
   memory: [skill.md](https://make.fun/skill.md) (the whole agent loop), [llms.txt](https://make.fun/llms.txt),
   [how-it-works](https://make.fun/how-it-works), the guides, and a bounty's own kit (`RULES.txt`,
